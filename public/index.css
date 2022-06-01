@@ -1,0 +1,123 @@
+/* BODY! */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+/* Navebar! */
+.topnavebar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 5px solid #045faa;
+  }
+  
+.topnavebar a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnavebar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+  
+.topnavebar a.active {
+    background-color: #045faa;
+    color: white;
+}
+
+/* Corpo da Página! */
+.esquerda {
+    display: flex;
+    height: 850px;
+    width: 19.7%;
+    background-color: rgb(255, 253, 125);
+    float: left;
+}
+
+.esquerdinha {
+    display: flex;
+    height: 850px;
+    width: 0.30%;
+    background-color: #045faa;
+    float: left;
+}
+
+.principal {
+    display: flex;
+    height: 850px;
+    width: 60%;
+    background-color: #ffffff;
+    float:left;
+}
+
+.direitinha {
+    display: flex;
+    height: 850px;
+    width: 0.30%;
+    background-color: #045faa;
+    float: left;
+}
+
+.direita {
+    display: flex;
+    height: 850px;
+    width: 19.70%;
+    background-color: rgb(255, 253, 125);
+    float: right;
+}
+
+/* Footer */
+footer{
+    border-top: 5px solid #045faa;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    bottom: 0;
+    left: 0;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+}
+
+/* Dentro da Principal*/
+.centro {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #045faa;
+}
+
+/* Imagem Centro */
+.ImagemCentro {
+    text-align: center
+}
+
+/* Texto Centro */
+.TextoCentro1 {
+    background-color: rgb(255, 253, 125);
+    margin: 90px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 100%;
+    border-radius: 20px;
+    border: 5px solid #045faa;
+}
+
+.TextoCentro2 {
+    background-color: rgb(255, 253, 125);
+    margin: 90px;
+    margin-top: -75px;
+    padding: 5px;
+    font-size: 100%;
+    border-radius: 20px;
+    border: 5px solid #045faa;
+}
+
+h3 {
+    margin-bottom: -10px;
+}
